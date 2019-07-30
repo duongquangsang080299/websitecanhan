@@ -3,11 +3,13 @@
   <title>PHP Test</title>
  </head>
  <body>
-     <h1> Xin chao cloud computing </h1>
-             <a herf ="https://www.facebook.com/profile.php?id=100004435054689"> 
-                 Dương Quang Sang
-             </a>
+     <h1>xin chao the gioi <h1>
+ <?php echo '<p>hello world from vietnam</p>'; 
+    echo getenv("DATABASE_URL")
+ ?> 
+             <h1> Do Trung Anh <h1>
+                     <a href="https://www.facebook.com/profile.php?id=100004435054689"> trang cá nhân </a>
 
-     
+
  </body>
 </html>
